@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("files/data.csv", index_col ="Name")
+df = pd.read_csv("../all_files/data.csv", index_col ="Name")
 
 pokemon = input("Enter any pokemon to check it's stats: ")
 
