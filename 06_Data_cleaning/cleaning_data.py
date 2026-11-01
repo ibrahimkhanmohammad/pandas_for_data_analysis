@@ -28,7 +28,7 @@ print(df)
 df["Type1"] = df["Type1"].replace({"Grass": "GRASS", "Water": "WATER", "Fire": "FIRE"})
 print(df)
 
-# 4. Standardize text
+# 4. Standardize text - String methods
 
 # df["Name"] = df["Name"].str.upper()
 # df["Name"] = df["Name"].str.lower()
